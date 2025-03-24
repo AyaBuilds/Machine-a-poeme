@@ -1,0 +1,53 @@
+/* Style global de la page */
+body {
+    background-color: #d3d3d3; /* Gris clair */
+    font-family: 'Times New Roman', Times, serif; /* Police par défaut pour le poème */
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+/* Style du titre */
+h1 {
+    font-family: 'Parisienne', cursive; /* Police Parisienne pour le titre */
+    font-size: 36px;
+    color: #333; /* Couleur du titre en noir */
+    margin-bottom: 30px;
+}
+
+/* Style des champs de saisie */
+input {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+/* Style du bouton */
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #000; /* Noir */
+    color: white; /* Texte en blanc */
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #444; /* Noir plus clair au survol */
+}
+
+/* Style pour afficher le poème */
+pre {
+    font-family: 'Times New Roman', Times, serif; /* Police Times New Roman pour le poème */
+    font-size: 20px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #333; /* Couleur du texte du poème en noir */
+    margin-top: 30px;
+}
